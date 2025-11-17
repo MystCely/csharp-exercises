@@ -1,4 +1,4 @@
-namespace DatatypesDemo1;
+namespace DatatypesDemo;
 
 public class DataTypes1
 {
