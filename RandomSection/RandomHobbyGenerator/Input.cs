@@ -8,4 +8,11 @@ public class Input
         var input = Console.ReadLine();
         return input;
     }
+
+    public string AskToPlayAgain(string question)
+    {
+        Console.WriteLine(question);
+        var input = Console.ReadLine();
+        return input;
+    }
 }
