@@ -10,10 +10,10 @@ public class ConsoleApp
 
         GiveRandomHobby(name);
 
-    }
+    } 
+        Random rand = new Random();
         private void GiveRandomHobby(string name)
         {
-            Random rand = new Random();
             var randomNumber = rand.Next(0, 3);
 
             if (randomNumber == 0)
