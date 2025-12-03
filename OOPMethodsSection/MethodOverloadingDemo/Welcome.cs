@@ -9,13 +9,8 @@ internal class Welcome
     {
         Message = message;
     }
-
-    public void PrintWelcomeMsg()
-    {
-        Console.WriteLine(Message);
-    }
     
-    public void PrintWelcomeMsg(string compliment)
+    public void PrintWelcomeMsg(string compliment = "Du er snill!")
     {
         Console.WriteLine(Message + compliment);
     }

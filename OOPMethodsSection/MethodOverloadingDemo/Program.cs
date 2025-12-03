@@ -4,8 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        var welcome = new Welcome("Hi and welcome! ");
+        var welcome = new Welcome("Hei og velkommen! ");
         
-        welcome.PrintWelcomeMsg("Du er snill!");
+        welcome.PrintWelcomeMsg();
+        welcome.PrintWelcomeMsg("Du er flink!");
     }
 }
